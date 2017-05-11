@@ -10,6 +10,7 @@ Barre::Barre(sf::Vector2f position)
     m_rectangle.setOutlineThickness(2);
     m_rectangle.setOutlineColor(sf::Color::White);
     m_vitesse = 500.f;
+
 }
 
 float Barre::left() const
