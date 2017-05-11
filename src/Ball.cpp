@@ -12,7 +12,6 @@ Ball::Ball(sf::Vector2f position)
     m_vitesse = 600.f;
     m_direction.x = m_vitesse;
     m_direction.y = -m_vitesse;
-
 }
 
 sf::CircleShape Ball::getCircle() const
